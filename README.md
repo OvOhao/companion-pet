@@ -2,6 +2,8 @@
 
 # 🐾 Companion Pet · 桌面陪伴小精灵
 
+<img src="assets/preview.png" alt="Companion Pet 预览" width="92%" />
+
 ### *“主人~ 人家来陪你写代码啦 ✨”*
 
 一个会**浮在你桌面上**的二次元小伙伴，

@@ -1,0 +1,21 @@
+#!/bin/sh
+# Locate the companion-pet CLI no matter how this skill was installed (bundled
+# in the plugin, or copied to ~/.claude/skills), then exec it.
+find_cli() {
+  for c in \
+    "$COMPANION_ROOT/bin/companion" \
+    "$CLAUDE_PLUGIN_ROOT/bin/companion" \
+    "$(cd "$(dirname "$0")/../.." 2>/dev/null && pwd)/bin/companion" \
+    "$HOME/companion-pet/bin/companion" \
+    "$HOME/Downloads/companion-pet/bin/companion" \
+    "$HOME/Documents/companion-pet/bin/companion"; do
+    [ -x "$c" ] && { printf '%s\n' "$c"; return 0; }
+  done
+  command -v companion 2>/dev/null
+}
+CLI="$(find_cli)"
+if [ -z "$CLI" ]; then
+  echo "companion-pet CLI not found. Set COMPANION_ROOT=/path/to/companion-pet and retry." >&2
+  exit 1
+fi
+exec "$CLI" "$@"

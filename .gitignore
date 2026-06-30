@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+
+# Bundled GUI virtualenv (large, platform-specific — recreated by install.sh/ps1)
+.venv/
+
+# Runtime / scratch
+*.log
+.DS_Store
+companion-pet-shot.png

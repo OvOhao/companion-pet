@@ -1,0 +1,12 @@
+{
+  "name": "companion-pet-marketplace",
+  "owner": { "name": "z5525828" },
+  "plugins": [
+    {
+      "name": "companion-pet",
+      "description": "Desktop companion mascot for Claude Code (startup greeting + done/error/waiting pings).",
+      "source": { "source": "local", "path": "." },
+      "version": "0.1.0"
+    }
+  ]
+}

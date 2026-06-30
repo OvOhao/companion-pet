@@ -1,0 +1,14 @@
+#!/bin/sh
+# Thin launcher for the companion CLI. Runs under any python3 (stdlib only);
+# the GUI daemon is auto-spawned under a tkinter-capable interpreter.
+ROOT="$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)"
+export COMPANION_ROOT="$ROOT"
+export PYTHONPATH="$ROOT${PYTHONPATH:+:$PYTHONPATH}"
+
+PY="${COMPANION_PYTHON:-}"
+if [ -z "$PY" ]; then
+  for c in python3 python3.13 python3.12 /usr/bin/python3; do
+    if command -v "$c" >/dev/null 2>&1; then PY="$c"; break; fi
+  done
+fi
+exec "$PY" -m companion "$@"

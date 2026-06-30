@@ -1,0 +1,76 @@
+{
+  "characters": [
+    {
+      "id": "bloop",
+      "name": "Bloop",
+      "file": "bloop.png",
+      "color": "#78c8ff",
+      "builtin": true,
+      "catchphrases": [
+        "史莱姆出动！",
+        "一起慢慢来~",
+        "黏黏地支持你"
+      ]
+    },
+    {
+      "id": "mochi",
+      "name": "Mochi",
+      "file": "mochi.png",
+      "color": "#ffc878",
+      "builtin": true,
+      "catchphrases": [
+        "喵~ 开工啦",
+        "我在旁边看着你哦",
+        "累了就摸摸我"
+      ]
+    },
+    {
+      "id": "boo",
+      "name": "Boo",
+      "file": "boo.png",
+      "color": "#e1e1f5",
+      "builtin": true,
+      "catchphrases": [
+        "呜哇，我来陪你了",
+        "别怕 bug，有我在",
+        "飘过来打个气~"
+      ]
+    },
+    {
+      "id": "tin",
+      "name": "Tin",
+      "file": "tin.png",
+      "color": "#aabecd",
+      "builtin": true,
+      "catchphrases": [
+        "系统已就绪 ✓",
+        "正在为你运算…",
+        "嘀嘀—任务接收"
+      ]
+    },
+    {
+      "id": "twinkle",
+      "name": "Twinkle",
+      "file": "twinkle.png",
+      "color": "#ffd75a",
+      "builtin": true,
+      "catchphrases": [
+        "闪亮登场！",
+        "你今天也超棒",
+        "许个愿再写代码吧"
+      ]
+    },
+    {
+      "id": "quack",
+      "name": "Quack",
+      "file": "quack.png",
+      "color": "#ffe16e",
+      "builtin": true,
+      "catchphrases": [
+        "嘎~ 划水陪你",
+        "摸鱼也要一起",
+        "今天也要加油鸭"
+      ]
+    }
+  ]
+}

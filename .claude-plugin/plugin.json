@@ -1,0 +1,6 @@
+{
+  "name": "companion-pet",
+  "description": "A desktop companion that greets you on startup and pings you (work done / errors / waiting) with a cute mascot. Bring your own character images.",
+  "version": "0.1.0",
+  "author": { "name": "z5525828" }
+}

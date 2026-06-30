@@ -141,6 +141,30 @@ COMPANION_CLOSE=16 python3 scripts/remove_bg.py 图.png
 
 > ⚠️ 角色版权图仅建议**个人本地**当桌宠用，别二次分发/商用；想公开分享请用上面的 CC0 素材。
 
+### 🎀 示例角色（作者的收藏）
+
+仓库 `examples/characters/` 里放了几个抠好的示例角色，想用的话复制到你的角色文件夹即可：
+
+```bash
+# macOS / Linux
+cp examples/characters/*.png ~/.companion/characters/
+# Windows (PowerShell)
+copy examples\characters\*.png $env:USERPROFILE\.companion\characters\
+```
+
+<p align="center">
+  <img src="examples/characters/蕾姆.png" height="92" />
+  <img src="examples/characters/草神.png" height="92" />
+  <img src="examples/characters/皮卡丘.png" height="92" />
+  <img src="examples/characters/三玖.png" height="92" />
+  <img src="examples/characters/自嘲熊.png" height="92" />
+</p>
+
+> 📛 **版权声明 / Disclaimer**：`examples/` 内的二次元角色图，版权归各自原作者
+> 及版权方所有，此处**仅作个人桌宠演示用途**，不作任何商业用途。若版权方认为
+> 不妥，请提 [Issue](https://github.com/OvOhao/companion-pet/issues)，我会**立即移除**。
+> 自带的 `assets/builtin/` 小可爱则是本项目原创，可自由使用。
+
 ---
 
 ## 💬 改成你想说的话
